@@ -1,0 +1,105 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.card{
+    height:550px;
+    width: 500px;
+    background-color: rgba(40, 165, 254, 0.708);
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardwrapper{
+    height: 80%;
+    width: 80%;
+    /* background-color: blueviolet; */
+}
+.b{
+    color: white;
+}
+.line{
+    /* height: 10px; */
+    border: 1px solid white;
+    width: 50px;
+    margin-top: 25px;
+}
+.department{
+    width: 375px;
+    background-color: transparent;
+    margin-top: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.333);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.department::placeholder{
+    color: white;
+}
+.name{
+    width: 375px;
+    background-color: transparent;
+    margin-top: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.333);
+    border-top: none;
+    border-left: none;
+    border-right: none;  
+}
+.name::placeholder{
+    color: white;
+}
+.number{
+    width: 375px;
+    background-color: transparent;
+    margin-top: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.333);
+    border-top: none;
+    border-left: none;
+    border-right: none;   
+}
+.number::placeholder{
+    color: white;
+}
+.date{
+    width: 375px;
+    background-color: transparent;
+    margin-top: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.333);
+    border-top: none;
+    border-left: none;
+    border-right: none; 
+    color: white;
+}
+.date::type{
+    color: white;
+}
+.button{
+    height: 50px;
+    width: 150px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.button:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    transition: 1s;
+
+}
